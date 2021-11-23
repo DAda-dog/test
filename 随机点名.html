@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>随机点名</title>
+		<style type="text/css">
+			.box{
+				width: 90%;
+				border: 1px solid #ddd;
+				margin: 10px auto;
+			}
+			.btnBox{
+				text-align: center;
+			}
+			.btn{
+				outline: none;
+				width: 100px;
+				height:50px ;
+				line-height: 50px;
+				text-align: center;
+				margin: 0 30px;
+				border: none;
+				background: #DDDDDD;
+				border-radius: 5px;
+				cursor: pointer;
+			}
+			.chose{
+				text-align: center;
+				border: 1px solid #ccc;
+				width:200px;
+				height: 200px;
+				margin: 20px auto;
+			}
+			.list li{
+				display: inline-block;
+				width: 100px;
+				height: 50px;
+				line-height: 50px;
+				text-align: center;
+				border: 3px solid #CCCCCC;
+				border-radius: 5px;
+				margin: 10px;
+			}
+			.btnChose{
+				color: white;
+				background-color: greenyellow;
+			}
+			.change{
+				background-color: red;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<ul class="list">
+				
+			</ul>
+			<div class="btnBox">
+				<button type="button" class="start btn">开始点名</button>
+				<button type="button" class="stop btn">停止</button>
+			</div>
+			<div class="chose">
+				<p class="luck">幸运的你!</p>
+				<p class="result"></p>
+			</div>
+		</div>
+		<script type="text/javascript">
+			// 获取document节点
+			// 初始化列表  根据数据生成li列表
+			// 定时器
+			// 随机下标
+			// 开始
+				// 让自身变色
+				// 让li 元素变色
+				//list.getElementsByTagName("li")[0].className = "change";
+				// 清除上一次定时器
+				// 定时器作用，重复执行 生成 随机下标，列表变色 
+					// 1.生成 随机下标
+					// 所有的li 都加了change 样式
+					// 用循环判断 
+					// 2.让列表变色 
+			// 停止
+				// 清除定时器
+				// 根据被选中的下标，展示结果
+		</script>
+		
+		
+	</body>
+</html>
